@@ -1,4 +1,4 @@
-# Whlie-e-coyote
+# `while-e-coyote`
 
 > An assignment with `while` loops. This assignment has two parts.
 
