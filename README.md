@@ -48,6 +48,8 @@ node pin-code.js 0000 1112
 > None of the entered pin codes are correct.
 ```
 
+Just like the previous challenge, this code should work for any number of arguments.
+
 Hints:
 * Use the `getInput` function
 * Use a while loop
