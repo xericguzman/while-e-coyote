@@ -1,6 +1,6 @@
 # Whlie-e-coyote
 
-> An introduction assignment into `while` loops. This assignment has two parts.
+> An assignment with `while` loops. This assignment has two parts.
 
 ## Part 1: `sum-args.js`
 
