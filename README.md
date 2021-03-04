@@ -4,8 +4,8 @@
 
 ## Restrictions
 
-* You must use a while loop
-* Do not use process.argv.length or any other means of trivially getting the number of command line arguments passed to the program
+* **You must use a while loop**
+* **Do not use process.argv.length or any other means of trivially getting the number of command line arguments passed to the program**
 
 ## Part 1: `sum-args.js`
 
