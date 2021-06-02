@@ -105,9 +105,9 @@ Enter y:
 > 1
 
 9 is divisible by 1
-```
 
-```
+
+
 Enter x: 
 > 9
 Enter y: 
@@ -115,10 +115,9 @@ Enter y:
 
 9
 10 is divisible by 2
-```
 
 
-```
+
 Enter x: 
 > 10
 Enter y: 
@@ -127,9 +126,9 @@ Enter y:
 10
 11
 12 is divisible by 3
-```
 
-```
+
+
 Enter x: 
 > 5
 Enter y: 
