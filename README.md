@@ -1,64 +1,142 @@
 # `while-e-coyote`
 
-> An assignment with `while` loops. This assignment has two parts.
+> An assignment with `while` loops.
 
-## Restrictions
+## `number-summer.js`
 
-* **You must use a while loop**
-* **Do not use process.argv.length or any other means of trivially getting the number of command line arguments passed to the program**
+In a file called `number-summer.js` file, write a program that continually prompts the user for numbers until the user enters the keyword `"done"` at which point the sum of all the inputted numbers is logged out.
 
-## Part 1: `sum-args.js`
-
-In the `sum-args.js` file, write code such that any numbers that are given to the program as arguments are added together, then console.logged.
-
-**Examples:**
+#### Example
 
 ```
-node sum-args.js
-> 0
+Enter some numbers (type 'done' when complete):
+> 20
+> 10
+> 3.2
+> done
 
-node sum-args.js 1 2 3
-> 6
-
-node sum-args.js -20 30 1 2 9
-> 22
+Those numbers sum to 33.2
 ```
 
-This program should work for any number of arguments!
+## `fibonacci.js`
 
-Hints:
-* Use the `getInput` function
-* Use a while loop
-* You will not need to define any functions (you can if you want though)
+Write a program, `fibonacci.js` that accepts a number, `n`, from the user and consequently logs the first `n` values in the fibonacci sequence.
 
-## Part 2: `pin-code.js`
-
-In the `pin-code.js` file, a user should be able to input any number of pin codes via command line arguments. The program reads each pin code one by one.
-If the pin code is equal to the correct pin code (let's use `'1234'`), the program tells the user they got the pin code correct as well as how many guesses it took.
-If the none of the pin codes are correct, the program tells the user that all the pin codes were incorrect.
-
-**Examples:**
-
+The fibonacci sequence starts with 0 then 1. Each subsequent value can be obtained by summing the previous two values:
 ```
-node pin-code.js 1234
-> That is correct. You took 1 guess(es).
-
-node pin-code.js 0030 1112 1234
-> That is correct. You took 3 guess(es).
-
-node pin-code.js 1234 0030 1112
-> That is correct. You took 1 guess(es).
-
-node pin-code.js 0000 1112
-> None of the entered pin codes are correct.
+0 1 1 2 3 5 8 13 21 34 ...
 ```
 
-Just like the previous challenge, this code should work for any number of arguments.
+#### Example
 
-Hints:
-* Use the `getInput` function
-* Use a while loop
-* You will not need to define any functions (you can if you want though)
-* If a user enters the pin code correctly, we're done and do not process any subsequent pin codes
+```
+Enter a value for "n":
+> 9
+
+0
+1
+1
+2
+3
+5
+8
+13
+21
+```
+
+## `number-doubler.js`
+
+Write a program that prompts the user for a number, then repeatedly doubles that number until it is greater than or equal to 100.
+
+#### Example
+
+```
+Enter a number:
+> 23
+
+23
+46
+92
+184
+```
+
+## `string-repeater.js`
+
+Write a program that takes a string and 'repeats it' until the string's length is greater than or equal to 10.
+
+#### Examples
+
+```
+Enter a string:
+> abc
+
+abc
+abcabc
+abcabcabc
+abcabcabcabc
+```
+
+```
+Enter a string:
+> a
+
+a
+aa
+aaa
+aaaa
+aaaaa
+aaaaaa
+aaaaaaa
+aaaaaaaa
+aaaaaaaaa
+aaaaaaaaaa
+```
+
+## `make-divisble.js`
+
+Write a program that prompts the user for two numberx, x and y. The program should add one to x until it is divisble by y.
+
+#### Examples
+
+````
+Enter x: 
+> 9
+Enter y: 
+> 1
+
+9 is divisible by 1
+```
+
+```
+Enter x: 
+> 9
+Enter y: 
+> 2
+
+9
+10 is divisible by 2
+```
 
 
+```
+Enter x: 
+> 10
+Enter y: 
+> 3
+
+10
+11
+12 is divisible by 3
+```
+
+```
+Enter x: 
+> 5
+Enter y: 
+> 4
+
+5
+6
+7
+8 is divisible by 4
+```
