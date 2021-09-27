@@ -98,7 +98,7 @@ Write a program that prompts the user for two numberx, x and y. The program shou
 
 #### Examples
 
-````
+```
 Enter x: 
 > 9
 Enter y: 
